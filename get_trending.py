@@ -43,3 +43,9 @@ for item in data.get("items", []):
     })
 
 insert_videos(videos)
+
+if videos:
+    print(f"✅ Parsed {len(videos)} videos")
+    insert_videos(videos)
+else:
+    print("⚠️ No videos parsed! Skipping DB insert.")

@@ -27,6 +27,9 @@ data = response.json()
 print(response.status_code)
 print(data)
 
+if response.status_code != 200:
+    print(f"❌ API Error {response.status_code}: {response.text}")
+
 
 # Parse video info
 videos = []

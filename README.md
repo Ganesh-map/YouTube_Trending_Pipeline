@@ -43,7 +43,8 @@ An end-to-end automated ETL pipeline that fetches daily trending videos from You
 
 📸 *(Add your screenshot below)*
 
-![Supabase Screenshot](./assets/supabase_output.png)
+<img width="1366" height="563" alt="Screenshot 2025-07-11 152322" src="https://github.com/user-attachments/assets/3fe7eeea-3cfa-493e-9925-4a9fac6b7a0f" />
+
 
 ---
 

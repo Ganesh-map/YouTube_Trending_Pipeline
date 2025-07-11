@@ -24,6 +24,10 @@ params = {
 response = requests.get(YOUTUBE_API_URL, params=params)
 data = response.json()
 
+print(response.status_code)
+print(data)
+
+
 # Parse video info
 videos = []
 for item in data.get("items", []):

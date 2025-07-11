@@ -1,6 +1,6 @@
 # 📈 YouTube Trending Insights Tracker
 
-An end-to-end automated ETL pipeline that fetches daily trending videos from YouTube (India), transforms the data, and loads it into a PostgreSQL database hosted on Supabase — all orchestrated using GitHub Actions. Designed for portfolio showcase and to demonstrate practical data engineering skills using beginner-friendly tools and real-world APIs.
+An end-to-end automated ETL pipeline that fetches daily trending videos from YouTube (India), transforms the data, and loads it into a PostgreSQL database hosted on Supabase — all orchestrated using GitHub Actions.
 
 ---
 
@@ -41,8 +41,6 @@ An end-to-end automated ETL pipeline that fetches daily trending videos from You
 
 > Here's a snapshot of the `trending` table populated in Supabase:
 
-📸 *(Add your screenshot below)*
-
 <img width="1366" height="563" alt="Screenshot 2025-07-11 152322" src="https://github.com/user-attachments/assets/3fe7eeea-3cfa-493e-9925-4a9fac6b7a0f" />
 
 
@@ -59,3 +57,10 @@ An end-to-end automated ETL pipeline that fetches daily trending videos from You
 │   └── workflows
 │       └── etl-cron.yml    # GitHub Actions workflow
 └── README.md               # Project documentation
+```
+
+---
+
+## 👨‍💻 Author
+
+Made with lots of trial and error by Ganesh!!

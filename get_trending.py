@@ -15,7 +15,7 @@ YOUTUBE_API_URL = "https://www.googleapis.com/youtube/v3/videos"
 params = {
     "part": "snippet,statistics",
     "chart": "mostPopular",
-    "regionCode": "IN",
+    "regionCode": "US",
     "key": API_KEY,
     "maxResults": 50
 }

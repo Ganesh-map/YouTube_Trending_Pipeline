@@ -6,7 +6,7 @@ from insert_to_db import insert_videos
 
 # Load API key from .env file
 load_dotenv()
-API_KEY = os.getenv("YT_API_KEY")
+API_KEY = "AIzaSyBCYpB3mqvJCcvdPj5U_dCFG_7CwGuwieg"
 
 # Base URL for YouTube Data API
 YOUTUBE_API_URL = "https://www.googleapis.com/youtube/v3/videos"
